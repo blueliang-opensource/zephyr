@@ -1,0 +1,13 @@
+# Kconfig - STM32 PZ6806L board configuration
+#
+# Copyright (c) 2016 Open-RnD Sp. z o.o.
+#
+# SPDX-License-Identifier: Apache-2.0
+#
+
+if BOARD_STM32_PZ6806L
+
+config BOARD
+	default stm32_pz6806l
+
+endif # BOARD_STM32_PZ6806L
